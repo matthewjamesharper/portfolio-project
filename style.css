@@ -1,0 +1,89 @@
+
+/* One text color used throughout, so cited in 'main' */
+main {
+  background-image: url(images/philadelphia-skyline.jpg);
+  background-repeat: no-repeat;
+  color: #604d53;
+}
+
+header {
+  text-align: center;
+    background-color: rgba(215, 188, 196, 0.90);}
+
+header h1 {
+  font-family: sans-serif, Georgia, 'Times New Roman'; 
+  font-size: 45px;
+  padding: 100px 20px 1px 20px;
+  }
+header h2 {
+  font-family: Cambria, Sans-serif; 
+  font-size: 25px;}
+
+img {
+  width: 300px;
+}
+
+/* using border-radius to round off the edges of our image imbedded in the header */
+.image-circle {
+  border-radius: 25%;
+  padding: 1px 1px; 
+  margin: 1px 1px;
+  border: 1px 1px;
+}
+
+/* Using pseudo-classes for both nav and contact */
+a:link{color: #604d53}
+a:visited {color: #ffdbda}
+
+nav {
+text-align: center;
+font-family: Cambria, Sans-serif, Arial;
+font-size: 18px;
+ background-color: rgba(215, 188, 196, 0.9);
+  border-radius: 2%;
+  }
+
+/* .btn creates style elements for buttons used in navigation element */
+.btn {
+  display: inline-block; 
+  color: #ffdbda; 
+  text-align: center; 
+  padding: 2px 3px;
+  margin: 3px;
+  line-height: 2;
+  border-radius: 5px; 
+  background-color: rgba(96, 77, 83, 0.64);
+}
+
+
+div {
+  text-align: center;
+  padding: 20px 200px;
+
+}
+
+section {
+  background-color: rgba(215, 188, 196, 0.90);
+  border-radius: 2%;
+}
+article {   
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article p{
+  list-style-position: inside;
+  padding: 20px 1px;}
+
+
+footer {
+  height: 100px; 
+  text-align: center;
+  background-color: rgba(215, 188, 196, 0.90);
+  border-radius: 2px;
+}
+
+
+li {
+  text-align: center;
+}
