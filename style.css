@@ -1,0 +1,90 @@
+
+/* One text color used throughout, so cited in 'main' */
+main {
+  background-image: url(images/philadelphia-skyline.jpg);
+  background-repeat: no-repeat;
+  color: #604d53;
+}
+
+header {
+  text-align: center;
+    background-color: rgba(215, 188, 196, 0.90);
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 5%;
+    }
+
+header h1 {
+  font-family: sans-serif, Georgia, 'Times New Roman'; 
+  font-size: 45px;
+  padding: 100px 20px 1px 20px;
+  }
+header h2 {
+  font-family: Cambria, Sans-serif; 
+  font-size: 25px;}
+
+img {
+  width: 300px;
+}
+
+/* using border-radius to round off the edges of our image imbedded in the header */
+.image-circle {
+  border-radius: 25%;
+  padding: 1px 1px; 
+  margin: 1px 1px;
+  border: 1px 1px;
+}
+
+/* Using pseudo-classes for both nav and contact */
+a:link{color: #604d53}
+a:visited {color: #ffdbda}
+
+
+nav {
+text-align: center;
+font-family: Cambria, Sans-serif, Arial;
+font-size: 18px;
+ background-color: rgba(215, 188, 196, 0.9);
+  border-radius: 3.5%;
+  width: 300px;
+  height: 100px;
+margin: 0 auto;}
+
+/* .btn creates style elements for buttons used in navigation element */
+.btn {
+  display: inline-block; 
+  color: #ffdbda; 
+  text-align: center; 
+  padding: 2px 3px;
+  margin: 3px;
+  line-height: 2;
+  border-radius: 5px; 
+  background-color: rgba(96, 77, 83, 0.64);
+}
+
+
+section {
+  background-color: rgba(215, 188, 196, 0.90);
+  border-radius: 1%;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: Cambria, Sans-serif, Arial;}
+
+
+article p{
+  padding: 10px 1px;}
+
+
+footer {
+  text-align: center;
+  background-color: rgba(215, 188, 196, 0.90);
+  border-radius: 2px;
+  width: 300px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+ li {
+    text-align: left;
+  }
