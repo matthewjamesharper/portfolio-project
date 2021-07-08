@@ -46,7 +46,7 @@ font-family: Cambria, Sans-serif, Arial;
 font-size: 18px;
  background-color: rgba(215, 188, 196, 0.9);
   border-radius: 3.5%;
-  width: 300px;
+  width: 600px;
   height: 100px;
 margin: 0 auto;}
 
@@ -66,7 +66,7 @@ margin: 0 auto;}
 section {
   background-color: rgba(215, 188, 196, 0.90);
   border-radius: 1%;
-  width: 300px;
+  width: 600px;
   text-align: center;
   margin: 0 auto;
   font-family: Cambria, Sans-serif, Arial;}
